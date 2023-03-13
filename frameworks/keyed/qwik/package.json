@@ -1,0 +1,29 @@
+{
+  "name": "my-qwik-basic-starter",
+  "description": "App with Routing built-in (recommended)",
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "build": "vite build"
+  },
+  "js-framework-benchmark": {
+    "frameworkVersionFromPackage": "@builder.io/qwik",
+    "frameworkHomeURL": "https://qwik.builder.io/"
+  },
+  "devDependencies": {
+    "@builder.io/qwik": "^0.21.0-dev20230313073902",
+    "@types/eslint": "8.4.10",
+    "@types/node": "latest",
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
+    "eslint": "8.28.0",
+    "eslint-plugin-qwik": "0.15.2",
+    "node-fetch": "3.3.0",
+    "prettier": "2.8.0",
+    "typescript": "4.9.3",
+    "vite": "3.2.4",
+    "vite-tsconfig-paths": "3.5.0"
+  }
+}
